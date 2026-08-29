@@ -107,7 +107,6 @@ shares one accent treatment.
 | `colors.toml` | The entire palette — everything else is generated from it |
 | `icons.theme` | Icon theme (`Yaru-olive`) |
 | `chromium.theme` | Browser frame color |
-| `btop.theme` | Hand-tuned system-monitor colors |
 | `preview.png` | Theme preview shown in the theme switcher |
 | `unlock.png` | Lock-screen branding image |
 | `backgrounds/` | Wallpapers |
