@@ -1,34 +1,56 @@
-# Tan Desert —  inspired by Monument Valley at golden hour
+# Tan Desert — inspired by Monument Valley at golden hour
 # A warm, earthy palette with retro amber terminal glow
+#
+# Omarchy 4 (Quattro) semantic palette. Every themed config — terminals,
+# Hyprland borders, the Quickshell bar/lock/menus, btop, Neovim, VS Code —
+# is generated from these keys.
 
+mode = "dark"
+
+# Burnt orange sandstone: borders, highlights, bar accents
 accent = "#D4834A"
-active_border_color = "#D4834A"
-active_tab_background = "#D4834A"
 
-cursor = "#F5C580"
+# Hyprland window borders. The active border is a golden-hour gradient from
+# sunlit sandstone into bright amber; the shell reuses it for notification,
+# popup, and lock-screen borders.
+hyprland_active_border = "rgba(D4834Aee) rgba(F0C674ee) 45deg"
+hyprland_inactive_border = "rgba(3A2C22aa)"
 
-foreground = "#E8B065"
-background = "#2D1B14"
+# ── Surfaces ────────────────────────────────────────────────────────────
+background = "#2D1B14"         # deep warm earth — desert canyon shadow
+dark_background = "#1F120D"    # recessed panels
+darker_background = "#150C08"  # deepest canyon shadow
+lighter_background = "#3A2C22" # raised surface — dark bark
 
-selection_foreground = "#2D1B14"
+# Selected rows, meters, and highlight surfaces (a warm mid-brown that sits
+# between lighter_background and muted on the ramp)
+selection = "#5A3D28"
+
+# ── Text ────────────────────────────────────────────────────────────────
+foreground = "#E8B065"         # retro amber terminal glow
+bright_foreground = "#EDE0D0"  # sunlit sand
+light_foreground = "#D4C5B0"   # sandy parchment
+dark_foreground = "#A89684"    # weathered driftwood
+muted = "#8B7A6A"              # desert dust — dim/disabled text (ANSI bright black)
+
+# Terminal text selection stays inverted: amber block, dark text
 selection_background = "#E8B065"
+selection_foreground = "#2D1B14"
 
-# Normal colors (ANSI 0-7)
-color0 = "#1A1410"     # black        — deepest canyon shadow
-color1 = "#C75B39"     # red          — terracotta/desert rust
-color2 = "#7A9A4C"     # green        — sage/palo verde
-color3 = "#D4A050"     # yellow       — warm amber sunlight
-color4 = "#6A8BA0"     # blue         — distant mountain haze
-color5 = "#9C6B7A"     # magenta      — desert dusk lavender
-color6 = "#6B9A8A"     # cyan         — agave green
-color7 = "#D4C5B0"     # white        — sandy parchment
+# ── Normal colors (ANSI 1-6) ────────────────────────────────────────────
+red = "#C75B39"                # terracotta / desert rust
+green = "#7A9A4C"              # sage / palo verde
+yellow = "#D4A050"             # warm amber sunlight
+blue = "#6A8BA0"               # distant mountain haze
+magenta = "#9C6B7A"            # desert dusk lavender
+cyan = "#6B9A8A"               # agave green
+orange = "#D4834A"             # sunlit sandstone
+brown = "#8B5E3C"              # mesa rock
 
-# Bright colors (ANSI 8-15)
-color8 = "#3A2C22"     # bright black   — dark bark
-color9 = "#E8794D"     # bright red     — vivid terracotta
-color10 = "#8DB85C"    # bright green   — vibrant sage
-color11 = "#F0C674"    # bright yellow  — retro amber glow (terminal font)
-color12 = "#7DA8C0"    # bright blue    — clear desert sky
-color13 = "#B88094"    # bright magenta — bloom desert rose
-color14 = "#88C4B4"    # bright cyan    — bright agave
-color15 = "#EDE0D0"    # bright white   — bright sunlit sand
+# ── Bright colors (ANSI 9-14) ───────────────────────────────────────────
+bright_red = "#E8794D"         # vivid terracotta
+bright_green = "#8DB85C"       # vibrant sage
+bright_yellow = "#F0C674"      # retro amber glow
+bright_blue = "#7DA8C0"        # clear desert sky
+bright_magenta = "#B88094"     # desert rose bloom
+bright_cyan = "#88C4B4"        # bright agave
