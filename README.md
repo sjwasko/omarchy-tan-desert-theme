@@ -1,5 +1,8 @@
 # Tan Desert — an Omarchy theme
 
+[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-db61a2?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/sjwasko)
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-ffdd00?logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/sutibu)
+
 **Retro amber terminal glow · Golden hour desert palette**
 
 A warm, earthy Omarchy theme inspired by the golden-hour desert landscape of Monument Valley. Terminal text glows in retro amber against a deep, semi-transparent tan-brown backdrop.
